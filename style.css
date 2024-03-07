@@ -163,6 +163,8 @@ section {
 #profile{
     display: flex;
     justify-content: center;
+    /* padding-left: 2vw;
+    padding-right: 2vw; */
     gap: 5rem;
     height: 80vh;
 }
