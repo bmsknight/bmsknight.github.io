@@ -309,3 +309,51 @@ section {
     width: 400px;
     margin: auto 0;
   }
+
+  /* Experience section */
+
+  .work-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .work-details-container {
+    padding: 1rem;
+    display: flex;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    width: 65%;
+    /* flex-direction: row; */
+    justify-content: space-around;
+  }
+
+  .workplace-container{
+    display: flex;
+    gap: 2rem;
+    width: 45%;
+    align-items: center;
+    align-self: center;
+  }
+
+  .designation-container{
+    display: flex;
+    gap: 2rem;
+    flex: 1;
+    justify-content: space-between;
+    color: rgb(83, 83, 83);
+    align-items: center;
+    align-self: center;
+  }
+
+  .duration-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
